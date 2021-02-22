@@ -6,7 +6,7 @@ module.exports = {
     entry: './FRONTEND/index',
     output: {
       path: path.resolve(__dirname, 'BACKEND/public'),
-      filename: 'js/main.js'
+      filename: 'main.js'
     },
     plugins: [
       new htmlWebpackPlugin({

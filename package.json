@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall" : "npm run build",
     "build": "webpack",
-    "start" : "node BACKEND/index.js",
-    "postinstall" : "npm run build"
+    "start" : "node BACKEND/index.js"
   },
   "keywords": [],
   "author": "",
